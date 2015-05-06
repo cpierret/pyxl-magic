@@ -15,7 +15,7 @@ Pure python. No need for external library like libmagic, works on Windows as is.
 	url="http://github.com/cpierret/pyxl-magic",
 	py_modules=['pyxl-magic'],
 	keywords="mime magic file excel xls xlsx",
-	license="MIT",
+	license='Apache License 2.0',
 	classifiers=[
 		'Intended Audience :: Developers',
 		'License :: OSI Approved :: Apache Software License',
