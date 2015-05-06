@@ -2,25 +2,18 @@
 
 from distutils.core import setup
 
-
-PROJECT = 'pyxl-magic'
-VERSION = '0.1'
-AUTHOR = 'Christophe Pierret'
-AUTHOR_EMAIL = 'cpierret@gmail.com'
-DESC = "Excel file type identification. Improved detection compared to libmagic or python-magic."
-
 setup(
-	name=PROJECT,
-	version=VERSION,
-	description=DESC,
+	name='pyxl-magic',
+	version='0.1',
+	description="Excel file type identification. Improved detection compared to libmagic or python-magic.",
 	long_description="""Python module to check if a file is an Excel file.  
 Less false positive or false negative compared to libmagic or python-magic.
 Pure python. No need for external library like libmagic, works on Windows as is.
-	"""
-	author=AUTHOR,
-	author_email=AUTHOR_EMAIL,
+	""",
+	author='Christophe Pierret',
+	author_email='cpierret@gmail.com',
 	url="http://github.com/cpierret/pyxl-magic",
-	py_modules=['magic'],
+	py_modules=['pyxl-magic'],
 	keywords="mime magic file excel xls xlsx",
 	license="MIT",
 	classifiers=[
