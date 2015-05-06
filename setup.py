@@ -18,7 +18,7 @@ Pure python. No need for external library like libmagic, works on Windows as is.
 	license="MIT",
 	classifiers=[
 		'Intended Audience :: Developers',
-		'License :: OSI Approved :: MIT License',
+		'License :: OSI Approved :: Apache Software License',
 		'Development Status :: 4 - Beta',
 		'Programming Language :: Python',
 		'Programming Language :: Python :: 2.6',
